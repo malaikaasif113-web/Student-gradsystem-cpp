@@ -1,57 +1,84 @@
-# Simple Text Editor
+# Student Grade Management System
 
 ## Project Description
 
-The Simple Text Editor is a console-based C++ application that allows users to create, open, edit, and save text files. The system also provides additional features such as line numbering, text searching, text replacement, word wrapping, and character and word counting.
+The Student Grade Management System is a C++ console-based application developed using Object-Oriented Programming concepts. The system stores student information and marks for multiple subjects. It calculates statistics such as average marks, highest marks, lowest marks, and standard deviation. It also generates letter grades, sorts students according to their total marks, and identifies students who are below the passing criteria.
 
 ---
 
 ## Features
 
-* Create text content
-* Open text files
-* Save text files
-* Display line numbers
-* Find text
-* Replace text
-* Character count
-* Word count
-* Word wrap display
+* Store records of multiple students
+* Enter marks for multiple subjects
+* Calculate total marks
+* Calculate average marks
+* Find highest marks
+* Find lowest marks
+* Calculate standard deviation
+* Generate letter grades (A, B, C, D, F)
+* Sort students by total marks
+* Display students below passing threshold
 
 ---
 
 ## Technologies Used
 
 * C++
-* Object-Oriented Programming
-* File Handling
-* Classes and Objects
+* Object-Oriented Programming (OOP)
+* Arrays
 * Functions
-* Strings
+* Classes and Objects
+* Header Files
 
 ---
 
 ## File Structure
 
-SimpleTextEditor/
+StudentGradeManagementSystem/
 
 ├── main.cpp
 
-├── TextEditor.h
+├── Student.h
 
-├── TextEditor.cpp
+├── Student.cpp
+
+├── GradeManager.h
+
+├── GradeManager.cpp
 
 └── README.md
+
+---
+
+## Grading Criteria
+
+| Average Marks | Grade |
+| ------------- | ----- |
+| 85 and above  | A     |
+| 70 - 84       | B     |
+| 60 - 69       | C     |
+| 50 - 59       | D     |
+| Below 50      | F     |
 
 ---
 
 ## How to Run
 
 1. Open the project in CodeBlocks, Dev C++, or Visual Studio.
-2. Add all source and header files.
-3. Compile the project.
-4. Run the program.
-5. Select options from the menu.
+2. Add all source and header files to the project.
+3. Compile the program.
+4. Run the executable file.
+5. Enter student information and marks when prompted.
+
+---
+
+## Sample Functionalities
+
+* Enter student records
+* View student report
+* Calculate statistics
+* Sort students by performance
+* Display failed students
 
 ---
 
